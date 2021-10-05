@@ -1,0 +1,11 @@
+├── .flaskenv
+├── .flaskenv.docker
+├── docker-compose.local.yml
+├── docker-compose.yml
+└── web
+    ├── project
+    │   ├── __init__.py
+    │   └── config.py
+    ├── Dockerfile
+    ├── manage.py
+    └── requirements.txt
