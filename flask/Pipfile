@@ -4,18 +4,21 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-click = "==8.0.1"
-colorama = "==0.4.4"
-itsdangerous = "==2.0.1"
-python-dotenv = "==0.19.0"
-psycopg2-binary = "==2.8.6"
-Flask = "==2.0.2"
-Jinja2 = "==3.0.1"
-MarkupSafe = "==2.0.1"
-Werkzeug = "==2.0.1"
-Flask-SQLAlchemy = "==2.5.1"
+colorama = "*"
+itsdangerous = "*"
+python-dotenv = "*"
+psycopg2-binary = "*"
+Flask = "*"
+Jinja2 = "*"
+MarkupSafe = "*"
+Werkzeug = "*"
+Flask-SQLAlchemy = "*"
+flask-apscheduler = "*"
+celery = "*"
+redis = "*"
 
 [dev-packages]
+autopep8 = "*"
 
 [requires]
 python_version = "3.8"

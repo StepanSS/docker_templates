@@ -97,6 +97,7 @@ __pypackages__/
 # Celery stuff
 celerybeat-schedule
 celerybeat.pid
+celerybeat*
 
 # SageMath parsed files
 *.sage.py
@@ -128,6 +129,17 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# IDE
+.vscode/
 
 # files and dir
 wiki/
+
+# in progress
+flask/flask_scheduler
+flask/flask_docker_debugger
+sandbox/
+tmp/
+
+# service files
+sqlite*
